@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+input[type=text], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 80px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
+input[type=submit] {
+  width: 30%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 40px 10px 40px ;
+  margin: 8px 80px;
+  border: white;
+  border-radius: 24px;
+  cursor: pointer;
+}
+div {
+  border-radius: 45px;
+  div position: center;
+  padding: 30px 30px 350px 30px;
+}
+
+
+
+body{
+  background-image: url("wolf.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 30px 30px 30px 30px;
+
+}
+
+</style>
+<body>
+
+<font color=white size=200px><center>Join the cult</center></font>
+
+<div >
+  <form  action="index.html">
+    <label  for="fname"><center><font color="white">First Name</label><br>
+    <input  type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+
+    <label for="lname"><font color="white">Last Name</label><br>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+
+    <label for="country"><font color="white">Country</label><br>
+    <select id="country" name="country">
+      <option value="india">India</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select><br>
+
+    <label for="mail"><font color="white">Email id</label><br>
+    <input type="text" id="mail" name="email" placeholder="Your email...."><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
